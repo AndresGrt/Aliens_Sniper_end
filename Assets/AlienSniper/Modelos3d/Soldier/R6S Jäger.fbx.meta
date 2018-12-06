@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 5d86fc5e61b18db448d67e9211de69f6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: CINEMA_4D_Editor
+    100004: Jager_Arms
+    100006: Jager_Arms_2
+    100008: Jager_Gear
+    100010: Jager_Gear2
+    100012: Jager_Gear2_2
+    100014: Jager_Gear2_3
+    100016: Jager_Gear2_4
+    100018: Jager_Gear_2
+    100020: Jager_Gear_3
+    100022: Jager_Gear_4
+    100024: Jager_Hands
+    100026: Jager_Holster
+    100028: Jager_Legs
+    100030: Jager_Torso
+    100032: Jager_Torso_2
+    100034: Jager_Visor
+    100036: //RootNode
+    100038: "R6S_J\xE4ger"
+    100040: smdpatch_r6s_jager_body0_model0
+    100042: smdpatch_r6s_jager_body1_model0
+    100044: smdpatch_r6s_jager_body2_model0
+    100046: smdpatch_r6s_jager_body4_model0
+    100048: ValveBiped_Bip01_Head1
+    100050: ValveBiped_Bip01_L_Calf
+    100052: ValveBiped_Bip01_L_Clavicle
+    100054: ValveBiped_Bip01_L_Finger0
+    100056: ValveBiped_Bip01_L_Finger01
+    100058: ValveBiped_Bip01_L_Finger02
+    100060: ValveBiped_Bip01_L_Finger1
+    100062: ValveBiped_Bip01_L_Finger11
+    100064: ValveBiped_Bip01_L_Finger12
+    100066: ValveBiped_Bip01_L_Finger2
+    100068: ValveBiped_Bip01_L_Finger21
+    100070: ValveBiped_Bip01_L_Finger22
+    100072: ValveBiped_Bip01_L_Finger3
+    100074: ValveBiped_Bip01_L_Finger31
+    100076: ValveBiped_Bip01_L_Finger32
+    100078: ValveBiped_Bip01_L_Finger4
+    100080: ValveBiped_Bip01_L_Finger41
+    100082: ValveBiped_Bip01_L_Finger42
+    100084: ValveBiped_Bip01_L_Foot
+    100086: ValveBiped_Bip01_L_Forearm
+    100088: ValveBiped_Bip01_L_Hand
+    100090: ValveBiped_Bip01_L_Thigh
+    100092: ValveBiped_Bip01_L_Toe0
+    100094: ValveBiped_Bip01_L_UpperArm
+    100096: ValveBiped_Bip01_Neck1
+    100098: ValveBiped_Bip01_Pelvis
+    100100: ValveBiped_Bip01_R_Calf
+    100102: ValveBiped_Bip01_R_Clavicle
+    100104: ValveBiped_Bip01_R_Finger0
+    100106: ValveBiped_Bip01_R_Finger01
+    100108: ValveBiped_Bip01_R_Finger02
+    100110: ValveBiped_Bip01_R_Finger1
+    100112: ValveBiped_Bip01_R_Finger11
+    100114: ValveBiped_Bip01_R_Finger12
+    100116: ValveBiped_Bip01_R_Finger2
+    100118: ValveBiped_Bip01_R_Finger21
+    100120: ValveBiped_Bip01_R_Finger22
+    100122: ValveBiped_Bip01_R_Finger3
+    100124: ValveBiped_Bip01_R_Finger31
+    100126: ValveBiped_Bip01_R_Finger32
+    100128: ValveBiped_Bip01_R_Finger4
+    100130: ValveBiped_Bip01_R_Finger41
+    100132: ValveBiped_Bip01_R_Finger42
+    100134: ValveBiped_Bip01_R_Foot
+    100136: ValveBiped_Bip01_R_Forearm
+    100138: ValveBiped_Bip01_R_Hand
+    100140: ValveBiped_Bip01_R_Thigh
+    100142: ValveBiped_Bip01_R_Toe0
+    100144: ValveBiped_Bip01_R_UpperArm
+    100146: ValveBiped_Bip01_Spine
+    100148: ValveBiped_Bip01_Spine1
+    100150: ValveBiped_Bip01_Spine2
+    100152: ValveBiped_Bip01_Spine4
+    100154: ValveBiped_Bip01_Spine_2
+    400000: Body
+    400002: CINEMA_4D_Editor
+    400004: Jager_Arms
+    400006: Jager_Arms_2
+    400008: Jager_Gear
+    400010: Jager_Gear2
+    400012: Jager_Gear2_2
+    400014: Jager_Gear2_3
+    400016: Jager_Gear2_4
+    400018: Jager_Gear_2
+    400020: Jager_Gear_3
+    400022: Jager_Gear_4
+    400024: Jager_Hands
+    400026: Jager_Holster
+    400028: Jager_Legs
+    400030: Jager_Torso
+    400032: Jager_Torso_2
+    400034: Jager_Visor
+    400036: //RootNode
+    400038: "R6S_J\xE4ger"
+    400040: smdpatch_r6s_jager_body0_model0
+    400042: smdpatch_r6s_jager_body1_model0
+    400044: smdpatch_r6s_jager_body2_model0
+    400046: smdpatch_r6s_jager_body4_model0
+    400048: ValveBiped_Bip01_Head1
+    400050: ValveBiped_Bip01_L_Calf
+    400052: ValveBiped_Bip01_L_Clavicle
+    400054: ValveBiped_Bip01_L_Finger0
+    400056: ValveBiped_Bip01_L_Finger01
+    400058: ValveBiped_Bip01_L_Finger02
+    400060: ValveBiped_Bip01_L_Finger1
+    400062: ValveBiped_Bip01_L_Finger11
+    400064: ValveBiped_Bip01_L_Finger12
+    400066: ValveBiped_Bip01_L_Finger2
+    400068: ValveBiped_Bip01_L_Finger21
+    400070: ValveBiped_Bip01_L_Finger22
+    400072: ValveBiped_Bip01_L_Finger3
+    400074: ValveBiped_Bip01_L_Finger31
+    400076: ValveBiped_Bip01_L_Finger32
+    400078: ValveBiped_Bip01_L_Finger4
+    400080: ValveBiped_Bip01_L_Finger41
+    400082: ValveBiped_Bip01_L_Finger42
+    400084: ValveBiped_Bip01_L_Foot
+    400086: ValveBiped_Bip01_L_Forearm
+    400088: ValveBiped_Bip01_L_Hand
+    400090: ValveBiped_Bip01_L_Thigh
+    400092: ValveBiped_Bip01_L_Toe0
+    400094: ValveBiped_Bip01_L_UpperArm
+    400096: ValveBiped_Bip01_Neck1
+    400098: ValveBiped_Bip01_Pelvis
+    400100: ValveBiped_Bip01_R_Calf
+    400102: ValveBiped_Bip01_R_Clavicle
+    400104: ValveBiped_Bip01_R_Finger0
+    400106: ValveBiped_Bip01_R_Finger01
+    400108: ValveBiped_Bip01_R_Finger02
+    400110: ValveBiped_Bip01_R_Finger1
+    400112: ValveBiped_Bip01_R_Finger11
+    400114: ValveBiped_Bip01_R_Finger12
+    400116: ValveBiped_Bip01_R_Finger2
+    400118: ValveBiped_Bip01_R_Finger21
+    400120: ValveBiped_Bip01_R_Finger22
+    400122: ValveBiped_Bip01_R_Finger3
+    400124: ValveBiped_Bip01_R_Finger31
+    400126: ValveBiped_Bip01_R_Finger32
+    400128: ValveBiped_Bip01_R_Finger4
+    400130: ValveBiped_Bip01_R_Finger41
+    400132: ValveBiped_Bip01_R_Finger42
+    400134: ValveBiped_Bip01_R_Foot
+    400136: ValveBiped_Bip01_R_Forearm
+    400138: ValveBiped_Bip01_R_Hand
+    400140: ValveBiped_Bip01_R_Thigh
+    400142: ValveBiped_Bip01_R_Toe0
+    400144: ValveBiped_Bip01_R_UpperArm
+    400146: ValveBiped_Bip01_Spine
+    400148: ValveBiped_Bip01_Spine1
+    400150: ValveBiped_Bip01_Spine2
+    400152: ValveBiped_Bip01_Spine4
+    400154: ValveBiped_Bip01_Spine_2
+    2000000: CINEMA_4D_Editor
+    2100000: Jager_Gear
+    2100002: Jager_Gear2
+    2100004: Jager_Holster
+    2100006: Jager_Torso
+    2100008: Jager_Arms
+    2100010: Jager_Legs
+    2100012: Jager_Hands
+    2100014: Jager_Visor
+    2300000: Jager_Gear
+    2300002: Jager_Gear2
+    2300004: Jager_Holster
+    3300000: Jager_Gear
+    3300002: Jager_Gear2
+    3300004: Jager_Holster
+    4300000: Jager_Gear
+    4300002: Jager_Gear2
+    4300004: Jager_Holster
+    4300006: Jager_Torso
+    4300008: Jager_Gear_2
+    4300010: Jager_Gear2_2
+    4300012: Jager_Arms
+    4300014: Jager_Legs
+    4300016: Jager_Torso_2
+    4300018: Jager_Gear_3
+    4300020: Jager_Gear2_3
+    4300022: Jager_Arms_2
+    4300024: Jager_Hands
+    4300026: Jager_Gear_4
+    4300028: Jager_Gear2_4
+    4300030: Jager_Visor
+    9500000: //RootNode
+    13700000: Jager_Arms
+    13700002: Jager_Arms_2
+    13700004: Jager_Gear2_2
+    13700006: Jager_Gear2_3
+    13700008: Jager_Gear2_4
+    13700010: Jager_Gear_2
+    13700012: Jager_Gear_3
+    13700014: Jager_Gear_4
+    13700016: Jager_Hands
+    13700018: Jager_Legs
+    13700020: Jager_Torso
+    13700022: Jager_Torso_2
+    13700024: Jager_Visor
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_arms_diff
+    second: {fileID: 2800000, guid: 90bcc0662d16af94f87ce92fc54e73d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_arms_normal
+    second: {fileID: 2800000, guid: 53c823b57396928428cccc97eb4191a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_gear2_diff
+    second: {fileID: 2800000, guid: b17322a582a2ce5409b8c35908d206c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_gear2_normal
+    second: {fileID: 2800000, guid: 0944f19d4feae3d4885bcbab6e991dfd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_gear_diff
+    second: {fileID: 2800000, guid: 5c07d07c851b1264a90394c9e2107023, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_gear_normal
+    second: {fileID: 2800000, guid: 795d8223419f4d74ab6e299f7c927e2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_holster_diff
+    second: {fileID: 2800000, guid: d0d26f93134e966418cd5fbb1f12969b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_holster_normal
+    second: {fileID: 2800000, guid: bfb75fd00ef4ce643b038d3c141fb124, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_legs_diff
+    second: {fileID: 2800000, guid: 75a861a910f65c6419480222eed30b22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_legs_normal
+    second: {fileID: 2800000, guid: 585c82e20c256df4ba44e98f275125e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_torso_diff
+    second: {fileID: 2800000, guid: a54166dd71cacb24b8dbf49fe571396f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_torso_normal
+    second: {fileID: 2800000, guid: adbcc76b0245e064cb7361c42ce9c46c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_visor_diff
+    second: {fileID: 2800000, guid: d3de5010dae130c4e8ec7d4a980babf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jager_visor_env
+    second: {fileID: 2800000, guid: 7e1a418aa9998644ba10bca4df5cf154, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
