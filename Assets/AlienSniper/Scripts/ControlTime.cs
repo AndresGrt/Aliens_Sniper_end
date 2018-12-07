@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class ControlTime : MonoBehaviour
 {
-    [SerializeField]
+    
     float s;
-    [SerializeField]
     float sT;
-    [SerializeField]
     float mT;
-
+    int min;
+    int seg;
+    [Header("Mananger Time")]
     public int minutos;
     public int segundos;
-
     public int minTotal;
     public int segTotal;
+    [Header("Mananger Aliens")]
+    public GameObject[] Enemys;//numero de enemigos en la escena
+    public int numEnem;//numero de enemigos que se reponen
 
     public void Start()
     {
@@ -25,7 +27,10 @@ public class ControlTime : MonoBehaviour
     }
     private void Update()
     {
-        if ((minutos == 0 && segundos == 0) || (FindObjectOfType<ManangerEnemy>().contadorE == 0))
+        Enemys = GameObject.FindGameObjectsWithTag("Aliens");
+        numEnem = Enemys.Length;
+
+        if ((minutos == 0 && segundos == 0) || (numEnem == 0))
         {
             Guarda();
         }
@@ -72,17 +77,19 @@ public class ControlTime : MonoBehaviour
         FindObjectOfType<InterfasUsuario>().TotalTime();
         FindObjectOfType<InterfasUsuario>().activo = true;
     }
-    public int min;
-    public int seg;
     public void ResetTime()
     {
         s = seg;
         minutos = min;
         sT = 0;
         mT = 0;
+        Reset();
         FindObjectOfType<InterfasUsuario>().activo = false;
         FindObjectOfType<ZoomCamera>().Play_Zoom();
-        FindObjectOfType<ManangerEnemy>().Reset();
         FindObjectOfType<InterfasUsuario>().RecorsGame();
+    }
+    public void Reset()
+    {
+        Start();
     }
 }

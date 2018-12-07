@@ -4,10 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Besaca
-  - Cuerpo
   - bala
   - Control
+  - Aliens
   layers:
   - Default
   - TransparentFX

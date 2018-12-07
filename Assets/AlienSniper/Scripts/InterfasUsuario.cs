@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class InterfasUsuario : MonoBehaviour
 {
-    //Records de la escena
+    [Header("Canvas")]
     public int m;//numero de muertos
     public Text deads;//en canvas el numero de muertos
     public Text disparos;//en canvas el numero de disparos
@@ -15,6 +15,7 @@ public class InterfasUsuario : MonoBehaviour
     float corret;//el tiempo para desaparecer el mensaje para ambientar
     float maxT;//el tiempo maximo para el tiempo anterior /\
 
+    [Header("Records")]
     [SerializeField]
     int TMin;
     [SerializeField]
