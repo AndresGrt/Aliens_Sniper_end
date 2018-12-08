@@ -7,6 +7,9 @@ TagManager:
   - bala
   - Control
   - Aliens
+  - Cuerpo
+  - Besaca
+  - Soldier_
   layers:
   - Default
   - TransparentFX
