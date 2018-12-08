@@ -9,12 +9,13 @@ public class Enemy : MonoBehaviour {
     public int estado;
     public float Vida;
     public float Dano;
-
+	public Animator enemyAnimator;
 	// Use this for initialization
 	void Start () 
 	{	
        estado = 0;
-       Posicion_destino = FindObjectOfType<Util>().Asignar_posicion();
+       //Posicion_destino = FindObjectOfType<Util>().Asignar_posicion();
+	   
 	}
 	
 
@@ -24,16 +25,11 @@ public class Enemy : MonoBehaviour {
 	void Update () 
 	{
 		 if (estado == 0)
-        {
-            transform.LookAt(Posicion_destino);
-            if ((Posicion_destino - transform.position).magnitude > 1)
-            {
-                transform.position += transform.forward * (Time.deltaTime * 10);
-            }
-            else
-            {
-            	estado =1;
-            }
+        {            
+			if(Ir_destino())
+			{
+				estado =1;
+			}          
         }
 
         if (estado == 1 && attack == false)
@@ -50,11 +46,14 @@ public class Enemy : MonoBehaviour {
             {
                 transform.position += transform.forward * (Time.deltaTime * 10);
             }
+			
             else
-            {
+            {				
             	estado =4;
             }
         }
+
+	
 	}
 	public int Retorna_estado()
 	{
@@ -77,6 +76,24 @@ public class Enemy : MonoBehaviour {
 				Disminuir_Vida(10);
 				collision.gameObject.GetComponent<Ally>().Disminuir_Vida(10f);
 			}
+	}
+
+
+	public bool Ir_destino()
+	{
+		bool llegar;
+		transform.LookAt(Posicion_destino);
+		   if ((Posicion_destino - transform.position).magnitude > 1)
+            {					
+                	transform.position += transform.forward * (Time.deltaTime * 10);
+					llegar = false;
+            }
+			else
+			{
+				enemyAnimator.SetBool("adelante",false);
+				llegar = true;
+			}
+	return llegar;
 	}
 
 }

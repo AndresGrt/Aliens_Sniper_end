@@ -113,7 +113,7 @@ public class Util : MonoBehaviour
 
 	   public void Create_()
     {  	
-            GameObject enemy = Instantiate(Resources.Load("Cube") as GameObject, transform.position, transform.rotation);
+            GameObject enemy = Instantiate(Resources.Load("reptil") as GameObject, transform.position, transform.rotation);
             enemy_group[otro] = enemy;
             otro++;	
     }
@@ -125,8 +125,8 @@ public class Util : MonoBehaviour
         for (int j =0;j< cant_ally;j++)
         {
             string names = "Ally" + j;
-            GameObject Ally = Instantiate(Resources.Load("Soldier") as GameObject, transform.position, transform.rotation);
-            Ally.transform.position = Asiisgar_psocion_aleatoria();
+            GameObject Ally = Instantiate(Resources.Load("Soldier") as GameObject,  Asiisgar_psocion_aleatoria(), transform.rotation);
+            //Ally.transform.position = Asiisgar_psocion_aleatoria();
             ally_group[j] = Ally;
             Ally.name = names;
         }
