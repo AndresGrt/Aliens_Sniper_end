@@ -735,10 +735,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4330420225744442}
   - component: {fileID: 95054839730958060}
-  - component: {fileID: 114547209633762524}
   m_Layer: 0
   m_Name: Soldier
-  m_TagString: Untagged
+  m_TagString: Soldier_
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2442,24 +2441,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114547209633762524
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1745041470493806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa14cb66561f4e543957fe6da1676035, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  timeMax: 0
-  timeRun: 0
-  i: 0
-  mananger: {fileID: 0}
-  sangre: {fileID: 198307843594355058}
-  sangrar: 0
 --- !u!114 &114797687065440560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2471,7 +2452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6689a82fed2b10343b21f4030a681f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npc: {fileID: 114547209633762524}
+  npc: {fileID: 0}
 --- !u!135 &135930718406079988
 SphereCollider:
   m_ObjectHideFlags: 1
